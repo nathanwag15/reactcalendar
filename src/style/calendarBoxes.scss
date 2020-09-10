@@ -1,0 +1,12 @@
+.calendar-boxes-wrapper {
+    display: grid;
+    grid-template: repeat(6, 1fr) / repeat(7, 1fr);
+    height: calc(100% -39px);
+    width: 100%;
+}
+
+.calendar-box{
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+}

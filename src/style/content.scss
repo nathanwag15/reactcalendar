@@ -1,0 +1,16 @@
+.content-wrapper {
+    width: 75vw;
+    height: calc(100vh - 129px);
+    border: 1px solid black;
+    
+  
+}
+
+.days-wrapper {
+    display: grid;
+    width: 100%;
+    height: 10%;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
